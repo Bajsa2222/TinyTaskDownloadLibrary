@@ -1,0 +1,24 @@
+# Site settings
+title: TinyTask Macro Library
+description: Download and share macros for automating tasks with TinyTask!
+
+# Theme settings (if you're using a Jekyll theme)
+theme: jekyll-theme-primer
+
+# Markdown settings
+markdown: kramdown
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-github-metadata
+  # Add other plugins if needed
+
+# Build settings
+destination: ./_site
